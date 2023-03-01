@@ -1,4 +1,4 @@
 #!/bin/bash
 
 forever stopall
-forever start /home/ubuntu/nodejs/app.js
+forever start /home/ubuntu/app/app.js
