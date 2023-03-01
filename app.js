@@ -2,7 +2,8 @@ var express = require('express')
 var app = express()
 
 app.get('/*', function (req, res) {
-  res.send('testing auto scaling', req.originalUrl)
+  console.log(req.originalUrl)
+  res.send({ msg: 'hi' })
 })
 
 app.listen(80, function () {
