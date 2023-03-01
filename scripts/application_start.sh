@@ -5,7 +5,7 @@
 # forever start /home/ubuntu/nodejs/app.js
 
 # Change to the app directory
-cd /home/ec2-user/app
+cd /home/ubuntu/app
 
 # Start the server
 sudo node app.js
